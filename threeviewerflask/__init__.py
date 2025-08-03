@@ -29,7 +29,7 @@ def spreadsheet_viewer():
     pass
 
 @app.route('/text-viewer/<filename>')
-def spreadsheet_viewer():
+def text_viewer():
     pass
 
 @app.route('/presentation-viewer/<filename>')
