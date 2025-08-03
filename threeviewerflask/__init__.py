@@ -15,3 +15,24 @@ def home():
 @app.route('/viewer/<filename>')
 def viewer(filename):
     return render_template('viewer.html', filename = filename)
+
+@app.route('/cad-viewer/<filename>')
+def cad_viewer():
+    pass
+
+@app.route('/pdf-viewer/<filename>')
+def pdf_viewer():
+    pass
+
+@app.route('/spreadsheet-viewer/<filename>')
+def spreadsheet_viewer():
+    pass
+
+@app.route('/text-viewer/<filename>')
+def spreadsheet_viewer():
+    pass
+
+@app.route('/presentation-viewer/<filename>')
+def presentation_viewer():
+    pass
+
