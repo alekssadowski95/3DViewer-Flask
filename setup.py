@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='3DViewer-Flask',
-    version='0.0.1',    
+    version='0.0.2',    
     description='View 3D CAD models with the Python web-framework Flask',
     long_description=long_description,
     long_description_content_type='text/markdown',
