@@ -12,6 +12,11 @@ app.config['SECRET_KEY'] = 'afs87fas7bfsa98fbasbas98fh78oizu'
 def home():
     return redirect(url_for('viewer', filename = 'base-machine-vise.FCStd'))
 
+
+@app.route('/new')
+def home_new():
+    return render_template('index.html')
+
 @app.route('/viewer/<filename>')
 def viewer(filename):
     return render_template('viewer.html', filename = filename)
