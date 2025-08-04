@@ -23,6 +23,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename = 'website/css/sidebar.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'website/css/website.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'website/css/embed.css') }}">
+
+	
+    <!-- If you're going buildless but want ESM, import from Skypack -->
+    <script type="module">
+    	import * as fflate from 'https://cdn.skypack.dev/fflate@0.8.2?min';
+    </script>
     <script type="module" src="{{ url_for('static', filename = 'website/index.js') }}"></script>
 	<!-- website end -->
 
